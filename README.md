@@ -1,9 +1,9 @@
-**Employee Attendance Recording System
+#**Employee Attendance Recording System
 **
 
 This project is an Employee Attendance Recording System built in PHP with MySQL. It allows users to manage departments, employees, and attendance records efficiently. The project consists of six main pages with functionality for adding, editing, and deleting records, as well as tracking attendance by employee or date range.
 
-**Table of Contents
+#**Table of Contents
 **
 * Features
 * Project Structure
@@ -12,14 +12,14 @@ This project is an Employee Attendance Recording System built in PHP with MySQL.
 * Database Structure
 * Pages Overview
   
-**Features**
+#**Features**
 * **Department Management**: Add, edit, delete, and view departments.
 * **Employee Management**: Add, edit, delete, and view employees.
 * **Attendance Recording**: Record attendance and view attendance logs.
 * **Attendance Monitoring by Employee**: Track attendance for individual employees with total hours and salary.
 * **Attendance Monitoring by Date Range**: Filter attendance records by date range.
 
-**Project Structure
+#**Project Structure
 **The project is organized as follows:
 ```
 .
@@ -33,23 +33,23 @@ This project is an Employee Attendance Recording System built in PHP with MySQL.
 └── actions.php                 # Handles form submissions for CRUD actions
 ```
 
-**Setup**
+## **Setup**
 1. **Clone the Repository**
 ```
 git clone https://github.com/yourusername/employee-attendance-system.git
 cd employee-attendance-system
 ```
-2. **Database Setup**
+## 2. **Database Setup**
 * Create a MySQL database named `employee_attendance`.
 * Import the SQL file provided in the repo (e.g., `database.sql`) to set up the necessary tables.
 * Update the database connection details in `db.php` if needed.
 
-3. **Run the Application**
+## 3. **Run the Application**
 * Start your local server (e.g., XAMPP or WAMP).
 * Place the project folder in the server's `htdocs` directory.
 * Access the application in your browser at `http://localhost/employee-attendance-system`.
 
-**Usage**
+## **Usage**
 1. Access the Main Menu: Open index.php to access the options for Department Management, Employee Management, Attendance Recording, and Attendance Monitoring.
 2. Perform CRUD Operations:
 * Each page includes buttons to add, edit, or delete records.
@@ -60,7 +60,7 @@ cd employee-attendance-system
 
 **Database Structure
 **Here are the key tables used in this project:
-**Departments Table**
+## **Departments Table**
 ### Departments Table
 | **Column**   | **Type**         | **Description**              |
 |--------------|------------------|------------------------------|
@@ -90,7 +90,7 @@ cd employee-attendance-system
 | **attTimeOut**   | TIME             | **Time Out**                 |
 
 
-**Pages Overview
+## **Pages Overview
 **
 1. Menu (`index.php`)
 * The main menu page with links to all sections of the application.
