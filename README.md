@@ -1,5 +1,6 @@
 **Employee Attendance Recording System
 **
+
 This project is an Employee Attendance Recording System built in PHP with MySQL. It allows users to manage departments, employees, and attendance records efficiently. The project consists of six main pages with functionality for adding, editing, and deleting records, as well as tracking attendance by employee or date range.
 
 **Table of Contents
