@@ -27,7 +27,7 @@ The project is organized as follows:
 ├── attendance_recording.php    # Attendance Recording page
 ├── attendance_monitoring_employee.php  # Attendance Monitoring by Employee
 ├── attendance_monitoring_date.php      # Attendance Monitoring by Date Range
-├── database.php                # Contains reusable database functions
+├── db.php                # Contains reusable database functions
 └── actions.php                 # Handles form submissions for CRUD actions
 ```
 
